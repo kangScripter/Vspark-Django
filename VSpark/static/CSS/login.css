@@ -1,0 +1,13 @@
+*{
+    margin: 1%;
+    
+}
+
+#form-container{
+    width: 500px;
+    height: 400px;
+    align-content: center;
+    display:block;
+    /* margin-left: 30%; */
+}
+

@@ -1,0 +1,417 @@
+
+*{
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: open sans, sans-serif; 
+}
+
+.header ul{
+
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: rgb(4, 4, 133);
+    padding: 0.4%;
+    font-size: 1vw;
+}
+
+.header #top-mail {
+  list-style: none;
+  margin-left: 4%;
+}
+.header #top-time {
+    list-style: none;
+    margin-left: 3%;
+  }
+
+.topbar-right ul{
+  display: inline-block;
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+  margin-left: 10%;
+}
+
+#extra-text{
+  margin-left: 30%;
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+}
+
+.topnav{
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  margin-top: 1%;
+}
+
+.topnav a{
+  float:left;
+  color: #0b0b0b;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 1.5vw;
+  
+
+}
+
+.topnav #bar{
+  /* font-size: 2vw;  */
+  float:left;
+  color: #0b0b0b;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+  padding-left: 10%;
+  padding-top: 0.1%;
+  color: grey;
+  
+
+}
+.topnav img{
+  float: left;
+
+}
+
+/* .topnav #topnav-home{
+  margin-left: 20%;
+  /* padding-left: 20%; */
+  /* padding-top: 1%; */
+
+/* }
+
+.topnav #topnav-services{
+  margin-left: 5%;
+  padding-top: 1%;
+  
+}
+
+.topnav #topnav-gallery{
+  margin-left: 5%;
+  
+  
+}
+
+.topnav #topnav-contact{
+  margin-left: 5%;
+  padding-top: 1%;
+  
+}
+
+.topnav #topnav-about{
+  margin-left: 5%;
+  padding-top: 1%;
+  
+}
+
+.topnav #topnav-sign{
+  margin-left: 5%;
+  padding-top: 1%;
+  
+} */ 
+
+.topnav .link{
+  margin-left: 7%;
+  padding: 0.5%;
+  font-family: open sans, sans-serif;
+
+
+}
+.topnav .link:hover{
+  color:rgb(7, 32, 251);
+  border-radius: 5px;
+
+}
+.banner-1{
+   height: fit-content;
+   background-size: cover;
+   position: relative;
+   text-align: center;
+}
+
+.banner-1 img{
+ /* height: 650px; */
+ width: 100%;
+}
+
+.banner-1 h1{
+  position: absolute;
+  top: 20%;
+  left: 3%;
+  color: white;
+  font-weight: bolder;
+  font-family: open sans, sans-serif;
+  font-size: 5vw;
+  text-shadow: 0 0 30px black,0 0 20px rgb(0, 0, 0);
+  
+}
+
+.banner-1 h1 span{
+  animation: animate 7s forwards;
+}
+
+@keyframes animate{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.about-grid{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.about-grid #about-heading{
+   font-size: 150%;
+   font-weight: bolder;
+   font-family: open sans, sans-serif;
+   padding: 17%;
+   text-align: center;
+   color: rgb(5, 5, 106);
+}
+
+.about-grid .about-grid-1{
+  padding:7%;
+  padding-top: 7%;
+  text-align: center;
+}
+.about-grid h2{
+  margin-top: 5%;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: open sans, sans-serif;
+  text-align: center;
+ 
+}
+
+.about-grid p{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 20px;
+  color: gray;
+  font-family: open sans, sans-serif;
+}
+
+.about-grid-2{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.servies-heading {
+  text-align: center;
+  font-weight: bolder;
+  font-family: open sans, sans-serif;
+  
+}
+
+.servies-heading #services-grid-heading{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(5, 5, 106);
+}
+
+.servies-heading h2{
+  margin-top: 2%;
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: open sans, sans-serif;
+  text-align: center;
+  
+}
+.services-grid{
+  display: flex;
+  flex-direction: row;
+ 
+  
+}
+
+.services-grid .services-grid-1{
+  padding: 5%;
+  float: left;
+  text-align: center;
+  width: 33%;
+}
+.services-grid .services-grid-1 img{
+  margin-bottom: 5%;
+  width: 100px;
+  height: 100px;
+}
+.services-grid #services-grid-1-heading{
+  padding-top: 2%;
+  font-size: larger;
+  font-family: open sans, sans-serif;
+  font-weight: bolder;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.services-grid p{
+  margin-top: 4%;
+  font-size: 15px;
+}
+
+.gallery-grid{
+  display:flex;
+  flex-direction: row;
+  padding-left: 5%;
+
+}
+
+.gallery-grid-heading{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(5, 5, 106);
+  padding: 2%;
+  font-family: open sans, sans-serif;
+  font-weight: bolder;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.gallery-grid img{
+    max-width: 450px;
+    max-height: 300px;
+    margin: 2%;
+    padding: 2%;
+   
+}
+
+
+.gallery-grid #gallery-grid-image{
+  margin: 2%;
+
+}
+
+.contactus{
+  margin: 5%;
+ background-image: url(../Images/contactbg2.jpg);
+  padding: 7%;
+  background-size: cover;
+  text-align:left;
+  font-family: open sans, sans-serif;
+}
+
+.contactus #contact-text-1{
+   text-align: center;
+   font-size:25px ;
+   font-weight: bolder;
+   color: white;
+
+
+}
+
+.contactus h2{
+  margin-top: 3%;
+  text-align: left;
+  font-size:35px ;
+  font-weight: bolder;
+  color: white;
+}
+
+.contactus button{
+  margin-top: -5%;
+  margin-left: 65%;
+  position: absolute;
+  font-size: 35px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  font-weight: bold;
+  border-color: white;
+  padding: 1%;
+  
+}
+
+.contactus button:hover{
+  background-color: rgb(23, 23, 131);
+}
+
+.footer-class{
+   width: 100%;
+  height: 400px;
+  background-color: rgb(2, 2, 110);
+}
+
+.footer{
+ 
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: open sans, sans-serif;
+  
+}
+
+.footer .footer-1{
+  margin: 1%;
+  width: 33%;
+
+}
+
+.footer h3{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.footer ul{
+  margin-top: 5%;
+  list-style: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+.footer p{
+  margin-top: 5%;
+  list-style: none;
+  text-align: center;
+  font-size: 17px;
+}
+
+.footer li{
+  margin: 5%;
+}
+
+.scrolltotop{
+  position: fixed;
+        bottom: 10px;
+        float: right;
+        right: 10%;
+        left: 90%;
+        max-width: 50px;
+        width: 100%;
+        height: 100%;
+        max-height: 40px;
+        font-size: 20px;
+        background-color:rgb(3, 3, 58);
+        border-color: aliceblue;
+        padding: 1px;
+        border-radius: 4px;
+
+}
+.scrolltotop:hover{
+  background-color: rgb(14, 14, 246);
+}
+.arrow {
+  border: solid rgb(253, 253, 253);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}

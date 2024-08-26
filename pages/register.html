@@ -1,0 +1,39 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="shortcut icon" href="{% static 'Images/V SPARK Final Logo.png'%}" type="image/x-icon">
+</head>
+<body bgcolor="grey">
+    <div id="container" style="color: white;">
+    
+    <form action="register" method="post"> <br>
+        {% csrf_token%}
+    <label for="username">UserName</label><br>
+    <input type="text" name="username" id=""> <br>
+    <label for="email">Email Address</label><br>
+    <input type="email" name="email" id=""><br>
+    <label for="pass">Password</label><br>
+    <input type="password" name="pass" id=""><br>
+    <label for="conf-pass">Confirm Password</label><br>
+    <input type="password" name="conf-pass" id=""><br>
+    <label for="">Select course</label><br>
+    <input type="checkbox" name="course" value="python" id="">
+    <label for="">Python Full stack</label>
+    <input type="checkbox" name="course" value="java" id="">
+    <label for="">Java Full stack</label> <br>
+    <button type="submit">Submit</button>
+</form>
+    {% if messages %}
+    {% for message in messages %}
+     {% if message.tags %}  <script>alert("{{ message }}")</script> {% endif %}
+
+    {% endfor %}
+
+{% endif %}
+   </div>
+</body>
+</html>
