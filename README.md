@@ -25,3 +25,15 @@ pip install -r requirements.txt
 python manage.py migrate
 
 ```
+
+##### 2. Create a superuser for the Django admin panel:
+```bash
+python manage.py createsuperuser
+```
+
+#### #3.Start the development server:
+```bash
+python manage.py runserver
+```
+Open http://127.0.0.1:8000 in your browser to view the application.
+
