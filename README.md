@@ -2,8 +2,9 @@
 
 ## Getting Started
 ### Prerequisites
-Python - Ensure Python 3.x is installed. You can download it from python.org.
-Django - Install Django (or specify other libraries or versions if necessary).
+**Python** - Ensure Python 3.x is installed. You can download it from python.org.
+
+**Django** - Install Django (or specify other libraries or versions if necessary).
 
 ### Installation
 #### Clone the repository:
