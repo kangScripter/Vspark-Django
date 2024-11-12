@@ -7,7 +7,9 @@ Django - Install Django (or specify other libraries or versions if necessary).
 
 ### Installation
 #### Clone the repository:
-`bash
+```bash
 git clone https://github.com/kangScripter/Vspark-Django
 cd Vspark-Django
-`
+
+
+
